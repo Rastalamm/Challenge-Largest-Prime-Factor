@@ -6,7 +6,7 @@ var start = 2;
 while ( n != 1 ) {
     if(n % start === 0){
        primeNumber = start;
-       n = n /start;
+       n = n / start;
     }else{
        start++
     }
